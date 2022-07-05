@@ -1,0 +1,20 @@
+<h1>
+  Stopwatch Component
+</h1>
+
+
+<section class="stopwatch-wrapper">
+
+  <div class="stopwatch">
+    <div>
+      {{currentTimer}}
+    </div>
+  </div>
+
+  <div class="btn-wrapper">
+    <button (click)="startStopwatch()">Start</button>
+    <button (click)="pauseStopwatch()">Pause</button>
+    <button (click)="stopStopwatch()">Stop</button>
+  </div>
+
+</section>
